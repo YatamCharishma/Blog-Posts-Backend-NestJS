@@ -79,6 +79,9 @@ export class PostsController {
     async getPostsByCategory(@Param('category') category: string) {
         try {
             console.log(category);
+            if (!category) {
+                throw new BadRequestException('Category is required');
+            }
             const posts = await this.postsService.getPostsByCategory(category);
             if (!posts.length) {
                 throw new NotFoundException(`No posts found in category: ${category}`);
