@@ -87,13 +87,9 @@ src/
 
 ---
 
-## ✅ Postman Collection Link
+## 🔗 Postman Collection Link
 
-```bash
-
-# Link
-https://web.postman.co/workspace/My-Workspace~4e193b59-6cf1-49d7-828f-a044e0b21906/collection/38364520-d9da7648-20df-4ae4-afcb-fb3b6d98e652?action=share&source=copy-link&creator=38364520
-```
+[Postman Collection](https://web.postman.co/workspace/My-Workspace~4e193b59-6cf1-49d7-828f-a044e0b21906/collection/38364520-d9da7648-20df-4ae4-afcb-fb3b6d98e652?action=share&source=copy-link&creator=38364520)
 
 ---
 
