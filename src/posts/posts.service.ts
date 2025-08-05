@@ -38,6 +38,13 @@ export class PostsService {
         return newPost;
     }
 
+    async getPostsByCategory(category: string): Promise<Post[]> {
+        const posts = await this.db.read();
+        return posts.filter(
+            (post) => post.category?.toLowerCase() === category.toLowerCase(),
+        );
+    }
+
     async updatePost(id: number, updateDto: Partial<Post>) {
         const post = await this.db.findById(id);
         if (!post) throw new NotFoundException('Post not found');

@@ -75,6 +75,20 @@ export class PostsController {
         }
     }
 
+    @Get('category/:category')
+    async getPostsByCategory(@Param('category') category: string) {
+        try {
+            console.log(category);
+            const posts = await this.postsService.getPostsByCategory(category);
+            if (!posts.length) {
+                throw new NotFoundException(`No posts found in category: ${category}`);
+            }
+            return posts;
+        } catch (error) {
+            throw error;
+        }
+    }
+
     @Delete(':id')
     async deletePost(@Param('id', ParseIntPipe) id: number, @Res() res: Response) {
         try {
