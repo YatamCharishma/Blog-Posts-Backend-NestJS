@@ -1,0 +1,335 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to the blog",
+    "slug": "welcome-to-the-blog",
+    "summary": "An intro to our new blog platform.",
+    "content": "This is your first post!",
+    "authorId": 1,
+    "category": "announcement",
+    "tags": [
+      "intro",
+      "welcome",
+      "announcement"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:00:00.000Z",
+    "updatedAt": "2025-08-05T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "My First Blog Post",
+    "slug": "my-first-blog-post",
+    "summary": "This post explores my journey into blogging.",
+    "content": "This is the content of the blog post.",
+    "authorId": 1,
+    "category": "tech",
+    "tags": [
+      "beginner",
+      "blog"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:05:00.000Z",
+    "updatedAt": "2025-08-05T10:05:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Understanding JavaScript Closures",
+    "slug": "understanding-javascript-closures",
+    "summary": "Closures are powerful and often misunderstood. Let's break them down.",
+    "content": "A closure is the combination of a function bundled with its lexical environment...",
+    "authorId": 2,
+    "category": "tech",
+    "tags": [
+      "javascript",
+      "closures",
+      "functions"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:10:00.000Z",
+    "updatedAt": "2025-08-05T10:10:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "10 Productivity Hacks for Developers",
+    "slug": "productivity-hacks-developers",
+    "summary": "Quick tips to get more done in less time.",
+    "content": "From using shortcuts to deep work sessions, here are 10 ways to stay efficient...",
+    "authorId": 2,
+    "category": "lifestyle",
+    "tags": [
+      "productivity",
+      "developer",
+      "workflow"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:15:00.000Z",
+    "updatedAt": "2025-08-05T10:15:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "How to Set Up a REST API with NestJS",
+    "slug": "setup-rest-api-nestjs",
+    "summary": "Learn how to build scalable APIs using NestJS.",
+    "content": "NestJS is a progressive Node.js framework for building efficient server-side apps...",
+    "authorId": 1,
+    "category": "tech",
+    "tags": [
+      "nestjs",
+      "api",
+      "nodejs"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:20:00.000Z",
+    "updatedAt": "2025-08-05T10:20:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Top 5 Design Tools for 2025",
+    "slug": "top-design-tools-2025",
+    "summary": "Tools that every designer should know this year.",
+    "content": "From Figma to Penpot, the design world is evolving fast...",
+    "authorId": 3,
+    "category": "design",
+    "tags": [
+      "tools",
+      "design",
+      "ui"
+    ],
+    "isPublished": false,
+    "createdAt": "2025-08-05T10:25:00.000Z",
+    "updatedAt": "2025-08-05T10:25:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Why You Should Learn TypeScript",
+    "slug": "learn-typescript",
+    "summary": "A guide to TypeScript and why it's worth your time.",
+    "content": "TypeScript adds strong typing to JavaScript. This helps with scaling and debugging...",
+    "authorId": 2,
+    "category": "tech",
+    "tags": [
+      "typescript",
+      "javascript",
+      "language"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:30:00.000Z",
+    "updatedAt": "2025-08-05T10:30:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "The Future of Remote Work",
+    "slug": "future-of-remote-work",
+    "summary": "Remote work is here to stay. Here's what's next.",
+    "content": "Hybrid models, asynchronous teams, and global hiring trends are shaping the future...",
+    "authorId": 3,
+    "category": "business",
+    "tags": [
+      "remote",
+      "future",
+      "work"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:35:00.000Z",
+    "updatedAt": "2025-08-05T10:35:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "Mental Health for Developers",
+    "slug": "mental-health-developers",
+    "summary": "Burnout is real. Here's how to avoid it.",
+    "content": "Taking breaks, setting boundaries, and mindfulness practices can help...",
+    "authorId": 2,
+    "category": "lifestyle",
+    "tags": [
+      "mental health",
+      "burnout",
+      "developer"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:40:00.000Z",
+    "updatedAt": "2025-08-05T10:40:00.000Z"
+  },
+  {
+    "id": 10,
+    "title": "CSS Grid vs Flexbox: Which One to Use?",
+    "slug": "css-grid-vs-flexbox",
+    "summary": "A detailed comparison between Grid and Flexbox layout systems.",
+    "content": "Both are powerful tools. Use Grid for 2D layouts and Flexbox for 1D...",
+    "authorId": 1,
+    "category": "design",
+    "tags": [
+      "css",
+      "grid",
+      "flexbox"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:45:00.000Z",
+    "updatedAt": "2025-08-05T10:45:00.000Z"
+  },
+  {
+    "id": 11,
+    "title": "Docker Essentials",
+    "slug": "docker-essentials",
+    "summary": "A beginner’s guide to Docker and containerization.",
+    "content": "Docker helps developers ship their apps in containers...",
+    "authorId": 1,
+    "category": "devops",
+    "tags": [
+      "docker",
+      "containers"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:50:00.000Z",
+    "updatedAt": "2025-08-05T10:50:00.000Z"
+  },
+  {
+    "id": 12,
+    "title": "Securing Your APIs",
+    "slug": "securing-apis",
+    "summary": "Best practices for securing RESTful APIs.",
+    "content": "Always validate input, use rate limiting, and secure authentication...",
+    "authorId": 2,
+    "category": "security",
+    "tags": [
+      "api",
+      "security"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T10:55:00.000Z",
+    "updatedAt": "2025-08-05T10:55:00.000Z"
+  },
+  {
+    "id": 13,
+    "title": "React vs Vue: A 2025 Comparison",
+    "slug": "react-vs-vue-2025",
+    "summary": "Which frontend framework is better for you?",
+    "content": "React offers flexibility, while Vue is known for simplicity...",
+    "authorId": 3,
+    "category": "tech",
+    "tags": [
+      "react",
+      "vue",
+      "frontend"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:00:00.000Z",
+    "updatedAt": "2025-08-05T11:00:00.000Z"
+  },
+  {
+    "id": 14,
+    "title": "How to Write Unit Tests in NestJS",
+    "slug": "unit-tests-nestjs",
+    "summary": "Ensure your NestJS code is bug-free with unit tests.",
+    "content": "NestJS uses Jest for testing. Let’s look at some practical examples...",
+    "authorId": 1,
+    "category": "testing",
+    "tags": [
+      "nestjs",
+      "testing",
+      "unit tests"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:05:00.000Z",
+    "updatedAt": "2025-08-05T11:05:00.000Z"
+  },
+  {
+    "id": 15,
+    "title": "Behind the Scenes of Our Blog",
+    "slug": "behind-scenes-blog",
+    "summary": "A peek into how we built this blog engine.",
+    "content": "We used NestJS, in-memory storage, and file-based DB for fast prototyping...",
+    "authorId": 1,
+    "category": "tech",
+    "tags": [
+      "blog",
+      "nestjs",
+      "architecture"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:10:00.000Z",
+    "updatedAt": "2025-08-05T11:10:00.000Z"
+  },
+  {
+    "id": 16,
+    "title": "Deploying on Heroku",
+    "slug": "deploying-on-heroku",
+    "summary": "A quickstart guide to deploying your app on Heroku.",
+    "content": "Heroku offers simple deployments for Node.js apps with Git...",
+    "authorId": 2,
+    "category": "devops",
+    "tags": [
+      "heroku",
+      "deployment"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:15:00.000Z",
+    "updatedAt": "2025-08-05T11:15:00.000Z"
+  },
+  {
+    "id": 17,
+    "title": "Common HTTP Status Codes",
+    "slug": "common-http-status-codes",
+    "summary": "Understand the most-used HTTP status codes and when to return them.",
+    "content": "200 OK, 400 Bad Request, 401 Unauthorized, 404 Not Found, and more...",
+    "authorId": 2,
+    "category": "tech",
+    "tags": [
+      "http",
+      "status codes"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:20:00.000Z",
+    "updatedAt": "2025-08-05T11:20:00.000Z"
+  },
+  {
+    "id": 18,
+    "title": "A Developer’s Guide to REST",
+    "slug": "developers-guide-to-rest",
+    "summary": "REST APIs are everywhere. Here's how they work.",
+    "content": "REST stands for Representational State Transfer...",
+    "authorId": 3,
+    "category": "tech",
+    "tags": [
+      "rest",
+      "api"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:25:00.000Z",
+    "updatedAt": "2025-08-05T11:25:00.000Z"
+  },
+  {
+    "id": 19,
+    "title": "How to Build a CLI with Node.js",
+    "slug": "build-cli-node",
+    "summary": "Command line tools can boost your productivity. Let’s build one!",
+    "content": "Using libraries like Commander and Inquirer, we can build powerful CLIs...",
+    "authorId": 1,
+    "category": "tech",
+    "tags": [
+      "cli",
+      "nodejs"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:30:00.000Z",
+    "updatedAt": "2025-08-05T11:30:00.000Z"
+  },
+  {
+    "id": 20,
+    "title": "Async/Await Deep Dive",
+    "slug": "async-await-deep-dive",
+    "summary": "Promises, callbacks, and async/await explained.",
+    "content": "Async/await makes working with promises easier. Here’s how it works under the hood...",
+    "authorId": 1,
+    "category": "tech",
+    "tags": [
+      "async",
+      "await",
+      "javascript"
+    ],
+    "isPublished": true,
+    "createdAt": "2025-08-05T11:35:00.000Z",
+    "updatedAt": "2025-08-05T11:35:00.000Z"
+  }
+]
